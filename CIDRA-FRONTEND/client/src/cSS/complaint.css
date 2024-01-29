@@ -1,0 +1,63 @@
+/* Frontend/cSS/complaint.css */
+.complaint-container {
+    /* margin-top: 50vh; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+  }
+  
+  .complaint-card {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    /* margin-top: 300px; */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+#load{
+    margin-top : 10px; ;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .complaint-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .complaint-card-item:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .complaint-card-item:nth-child(odd) {
+    background-color: #0c356a;
+  }
+  
+  /* Add more styling based on your design requirements */
+  

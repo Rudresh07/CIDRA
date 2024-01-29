@@ -1,0 +1,87 @@
+/* Frontend/cSS/login.css */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-card {
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.lhs {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  align-items: center;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.rhs {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #cdecff;
+  align-items: center;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.rhscont{
+  width: 100%;
+}
+
+
+.rhscont img img{
+  /* justify-content: left; */
+  /* width: 100px;
+  height: 100px; */
+  
+}
+
+h2 {
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+form {
+  width: 250px;
+}
+
+input {
+  width: calc(100% - 10px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  margin-top: 30px;
+  background-color: #0c356a;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0174be;
+}

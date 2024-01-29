@@ -1,0 +1,88 @@
+/* Frontend/cSS/users.css */
+
+.users-container {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .users-card {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .anim {
+    text-align: center;
+  }
+  
+  .scroll-container {
+    max-height: 300px; 
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+
+  #load{
+    margin-left: 400px;
+  }
+
+  #btteach{
+    /* background-color: #0068d8; */
+    /* color: #000000; */
+    width: 100px;
+    margin-right: 0;
+  }
+
+  #btstd{
+ 
+    width: 100px;
+    margin-right: 0;
+  }
+ 
+
+  .users-list, .teachers-list {
+    margin-top: 20px;
+  }
+  
+  .user-item, .teacher-item {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 10px;
+    /* border: 1px solid #ddd; */
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  .user-item p, .teacher-item p {
+    margin: 5px 0;
+  }
+
+  .user-item:nth-child(even) {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .user-item:nth-child(odd) {
+    background-color: #0c356a;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  .teacher-item:nth-child(even) {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .teacher-item:nth-child(odd) {
+    background-color: #0c356a;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* You can add more styles based on your design requirements */
+  

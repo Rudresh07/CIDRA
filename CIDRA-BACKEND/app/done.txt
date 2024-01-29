@@ -1,0 +1,32 @@
+done till now 
+
+- create user 
+-get notices 
+-post notices 
+-post lecture 
+-get lecture
+-login is wrking 
+-get profile
+-upload assignment 
+-read assignment 
+-upload document 
+-get document
+-post complaint
+-get complaint
+
+
+remained 
+
+-image of user  
+-document is not uploading in assignment and upload doc
+
+
+authorise tokem-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTUwNjFjZDAwYzk1ZjYwODIzMjAzM2UiLCJpYXQiOjE2OTk5NjQ3NTUsImV4cCI6MTcwMDIyMzk1NX0.c14FdfoQMcwdVn84ffesdgP6DdpdV9X6ckXGAlI-f6A
+
+backend link =  https://cidra-backend.onrender.com
+
+
+
+for the certiproject 
+data [page ] -- http://localhost:3002/data
+for internship form -- http://127.0.0.1:3000/client/index.html
