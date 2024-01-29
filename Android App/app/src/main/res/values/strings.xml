@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CIDRA</string>
+    <string name="clgname">Indian Institute Of Information Technology Bhagalpur</string>
+    <string name="fill_credentials">Please fill all credentials</string>
+    <string name="error_occurred">Some error occurred</string>
+</resources>
